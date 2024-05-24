@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulaire de Validation</title>
+    <style>
+      .error {
+        color: red;
+      }
+      .success {
+        color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <form id="form">
+      <div>
+        <label for="name">Nom:</label>
+        <input type="text" id="name" name="name" />
+        <div id="succes_name" class="success"></div>
+        <div id="error_name" class="error"></div>
+      </div>
+
+      <div>
+        <label for="prenom">Prénom:</label>
+        <input type="text" id="prenom" name="prenom" />
+        <div id="succes_prenom" class="success"></div>
+        <div id="error_prenom" class="error"></div>
+      </div>
+
+      <div>
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" />
+        <div id="succes_email" class="success"></div>
+        <div id="error_email" class="error"></div>
+      </div>
+
+      <div>
+        <label for="date">Date de Naissance:</label>
+        <input type="date" id="date" name="date" />
+        <div id="succes_date" class="success"></div>
+        <div id="error_date" class="error"></div>
+      </div>
+
+      <div>
+        <label for="adresse">Adresse:</label>
+        <input type="text" id="adresse" name="adresse" />
+        <div id="succes_adresse" class="success"></div>
+        <div id="error_adresse" class="error"></div>
+      </div>
+
+      <div>
+        <label for="postal">Code Postal:</label>
+        <input type="text" id="postal" name="postal" />
+        <div id="succes_postal" class="success"></div>
+        <div id="error_postal" class="error"></div>
+      </div>
+
+      <div>
+        <label for="password">Mot de Passe:</label>
+        <input type="password" id="password" name="password" />
+        <div id="succes_password" class="success"></div>
+        <div id="error_password" class="error"></div>
+      </div>
+
+      <div>
+        <label for="confirm_password">Confirmer le Mot de Passe:</label>
+        <input type="password" id="confirm_password" name="confirm_password" />
+        <div id="succes_confirm_password" class="success"></div>
+        <div id="error_confirm_password" class="error"></div>
+      </div>
+
+      <button id="button">Soumettre</button>
+    </form>
+    <script src="./app/script_intermediaire_objet.js"></script>
+  </body>
+</html>

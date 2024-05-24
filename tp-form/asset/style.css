@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/*  */
+header, .password, .block__password, #block__nameInput, .block__label{
+  display: flex;
+}
+
+.password{
+  flex-direction: column;
+}
+
+.error{
+  color: rgb(221, 66, 66);
+}
+
+header{
+  justify-content: center;
+  padding: 1rem;
+}
